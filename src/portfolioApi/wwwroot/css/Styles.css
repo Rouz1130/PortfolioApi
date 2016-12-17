@@ -74,7 +74,7 @@ div.top {
   text-shadow:0 0 4px rgba(0, 188, 153, .3)
 }
 .top #profilepic {
-  background:url(http://placehold.it/40.png);
+  background:url(http://placehold.it/40.png);   
   border-radius:50%;
   -webkit-border-radius:50%;
   height:40px;
@@ -132,7 +132,7 @@ div.sidebar {
   text-transform:uppercase;
   max-width:270px;
   font-size:18px;
-  text-align:right;
+  text-align:left;
   border-bottom:1px dotted rgba(194,194,194,.1);
   padding:10px 60px 10px 10px;
   position:relative;

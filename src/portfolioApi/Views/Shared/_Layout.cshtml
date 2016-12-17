@@ -20,7 +20,7 @@
         <div class="top">
             <div>
                 <div class="logo">
-                    brand.
+                    Portfolio
                     <span class="small">&laquo;</span>
                 </div>
                 <div class="content">
@@ -28,7 +28,7 @@
                         <i class="fa fa-bell fa-2x">
                             <span>+99</span>
                         </i>
-                        <span id="name"><a href="#"> Hello, <span>firstName</span></a></span>
+                        <span id="name"><a href="#"> Rouz Majlessi</a></span>
                         <div id="profilepic"></div>
                     </div>
                 </div>
@@ -37,13 +37,12 @@
         <div class="sidebar">
             <nav id="left">
                 <ul>
-                    <li class="active"><a href="#">Hom<nos>e</nos><i class="fa fa-home fa-2x"></i></a><span></span></li>
-                    <li><a href="#">Dashboar<nos>d</nos><i class="fa fa-tachometer fa-2x"></i></a><span></span></li>
-                    <li><a href="#">Message<nos>s</nos><i class="fa fa-envelope fa-2x"></i></a><span></span></li>
-                    <li><a href="#">Contact<nos>s</nos><i class="fa fa-book fa-2x"></i></a><span></span></li>
-                    <li><a href="#">Socia<nos>l</nos><i class="fa fa-users fa-2x"></i></a><span></span></li>
-                    <li><a href="#">Bankin<nos>g</nos><i class="fa fa-bank fa-2x"></i></a><span></span></li>
-                    <li><a href="#">Setting<nos>s</nos><i class="fa fa-cogs fa-2x"></i></a><span></span></li>
+                    <li class="active">@Html.ActionLink("Home", "Index", "Home")<nos></nos><i class="fa fa-home fa-2x"></i></a><span></span></li>
+                    <br />
+                    <li>@Html.ActionLink("Projects", "Projects", "Home")<nos></nos><i class="fa fa-folder-open fa-2x"></i></a><span></span></li>
+                    <Br />
+                    <li>@Html.ActionLink("About", "About", "Home")<nos></nos><i class="fa fa-user fa-2x"></i></a><span></span></li>
+                    <br />
                 </ul>
             </nav>
             @RenderBody()
