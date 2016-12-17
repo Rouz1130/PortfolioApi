@@ -180,4 +180,5 @@
 -resource:"C:\Users\Rouz\Desktop\portfolioApi\src\portfolioApi\obj\Debug\netcoreapp1.0\portfolioApidotnet-compile.deps.json",portfolioApi.deps.json
 "C:\Users\Rouz\Desktop\portfolioApi\src\portfolioApi\Program.cs"
 "C:\Users\Rouz\Desktop\portfolioApi\src\portfolioApi\Startup.cs"
+"C:\Users\Rouz\Desktop\portfolioApi\src\portfolioApi\Controllers\AboutController.cs"
 "C:\Users\Rouz\Desktop\portfolioApi\src\portfolioApi\Controllers\HomeController.cs"
