@@ -113,6 +113,19 @@ div.logo {
   color:white;
   background:rgba(255,255,255,.2);
 }
+.title {
+  font-family: 'Comfortaa', cursive;
+  font-size:large;
+  color:black;
+  top:0px;
+  right:0px;
+  left:0px;
+  height:50px;
+  background:white;
+  box-shadow: 0 2px .1px rgba(0,0,0,.3);
+  text-align:center
+}
+
 div.sidebar {
   position:fixed;
   top:50px;
@@ -188,3 +201,10 @@ div.sidebar {
   right:0px;
   transition: left ease-in-out .2s;
 }
+
+
+
+
+
+
+
