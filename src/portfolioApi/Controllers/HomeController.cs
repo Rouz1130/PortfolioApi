@@ -20,5 +20,12 @@ namespace portfolioApi.Controllers
         {
             return View();
         }
+
+        public IActionResult Projects()
+        {
+            var bestProjects = Project.GetProjects();
+            return View(bestProjects);
+        }
+
     }
 }
