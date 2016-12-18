@@ -23,7 +23,9 @@ namespace portfolioApi.Controllers
 
         public IActionResult Projects()
         {
-            return View();
+            var bestProjects = Project.GetProjects();
+            return View(bestProjects);
         }
+
     }
 }
